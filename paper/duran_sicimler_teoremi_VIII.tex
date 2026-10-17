@@ -47,7 +47,7 @@ Duran Sicimler Teoremi I--VII [1--7] serisinde girdap tekilliği durdurulmuş, D
 
 \section{Görev 15 / Test T20 --- BASE-STEP 136 mT Yan-Band Açık/Kapalı Falsifikasyonu}
 
-$V_{\mathrm{well}}=16.0\text{ V}$'a ölçeklenen eksenel frekans $\nu_z=0.916251\text{ MHz}$ ile $B_0=0.136\text{ T}$'de $\nu_+=1.845952\text{ MHz}>\nu_z>\nu_-=227.393594\text{ kHz}>0$ sağlanır (Tablo~\ref{tab:t20}). Teorem 5 zarf denkleminin analitik sabit noktası $r^*=1.1167668231\,\mu\text{m}$'dir (brentq); 24 dakikalık Radau evrimi merkezli başlangıcı $r_-^{\mathrm{end}}=1.1167668233\,\mu\text{m}$'ye oturtur (Şekil~\ref{fig:fig10}(a)). $r_0=1,2,3,4\text{ mm}$ ofsetlerinin tamamı aynı noktaya geri-çekilir; korunmasız kol ($\mu_s=0$, $1\,\mu\text{m}$ tohum) duvara çarpar. Öngörü kesindir: \textbf{136 mT kampanyasında yan-band soğutması kapalıyken kayıp başlar, açıkken başlamaz.}
+$V_{\mathrm{well}}=16.0\text{ V}$'a ölçeklenen eksenel frekans $\nu_z=0.916251\text{ MHz}$ ile $B_0=0.136\text{ T}$'de $\nu_+=1.845952\text{ MHz}>\nu_z>\nu_-=227.393594\text{ kHz}>0$ sağlanır (Tablo~\ref{tab:t20}). Teorem 5 zarf denkleminin analitik sabit noktası $r^*=1.1167668231\,\mu\text{m}$'dir (brentq); 24 dakikalık Radau evrimi merkezli başlangıcı $r_-^{\mathrm{end}}=1.1167668233\,\mu\text{m}$'ye oturtur (Şekil~\ref{fig:fig10}(a)). $r_0=1,2,3,4\text{ mm}$ ofsetlerinin tamamı aynı noktaya geri-çekilir; korunmasız kol ($\mu_s=0$, $1\,\mu\text{m}$ tohum) duvara çarpar. Öngörü kesindir: \textbf{136 mT kampanyasında yan-band soğutması kapalıyken kayıp başlar, açıkken başlamaz.} Yüksek-alan çiftleri aynı yapıyı verir: $0.880\text{ T}$'de merkezli $r_-^{\mathrm{end}}=0.1725929420\,\mu\text{m}$ (ofset $2/4\text{ mm}$ geri-çekildi, korunmasız kayıp) ve $0.993\text{ T}$'de $r_-^{\mathrm{end}}=0.1529524641\,\mu\text{m}$ (ofset geri-çekildi, korunmasız kayıp).
 
 \begin{table}[!htbp]
 \centering
@@ -65,6 +65,8 @@ Analitik sabit nokta $r^*$ ($\mu_s^*$) & $1.1167668231\,\mu\text{m}$ \\
 Merkezli+korumalı $r_-^{\mathrm{end}}(24\text{ dk})$ & $1.1167668233\,\mu\text{m}$ \\
 Ofset $r_0=1/2/3/4\text{ mm}$ $\to$ $r_-^{\mathrm{end}}$ & $1.1167668233\,\mu\text{m}$ (tümü geri-çekilme) \\
 Korunmasız ($\mu_s=0$) $r_-(24\text{ dk})$ & $>5.0$ mm (duvar kaybı) \\
+Yüksek-alan çifti ($0.880/0.993$ T) merkezli $r_-^{\mathrm{end}}$ & $0.1725929420$ / $0.1529524641\,\mu\text{m}$ \\
+(ofset geri-çekildi, korunmasız kayıp) & \\
 \hline
 \end{tabular}
 \end{table}
@@ -122,6 +124,8 @@ Bant ($f_{\mathrm{Ps}}\in[0.90,0.94]$) & $[3.1153846154, 3.5847457627]$ \\
 $P_s=1$ bütçesi (hat $+$ o-Ps) & $0.62 + 2.07 = 2.6900000000$ ($1.07\times 10^{-14}$) \\
 Uçuşta-yokoluş sızıntı üst sınırı & $2(1-0.81) = 0.38$ \\
 Hat merkezi & $511.0$ keV \\
+COSI-2027 çerçevesi (eşik $10^{-6}$, 10/10 kaynak üstte) & $R$ bandı tüm eşik-üstü kaynaklara uygulanır \\
+& $[3.1153846154, 3.5847457627]$ \\
 \hline
 \end{tabular}
 \end{table}
@@ -138,7 +142,7 @@ r^*(136\text{ mT}) &= 1.1167781304\,\mu\text{m}.
 \end{split}
 \label{eq:uq}
 \end{equation}
-$\eta\in[0.09,0.11]$ aralığı $\dot{M}_{\mathrm{acc}}$'yi $[8.8907163753, 7.2742224889]\times 10^{-8}$ (tam lineer, $\pm\%10$), $a_{\mathrm{rms}}\pm\%10$ ise $r^*$'ı $[1.0051003173, 1.2284559434]\,\mu\text{m}$ ($\pm\%10$) aralığına taşır.
+$\eta\in[0.09,0.11]$ aralığı $\dot{M}_{\mathrm{acc}}$'yi $[8.8907163753, 7.2742224889]\times 10^{-8}$ (tam lineer, $\pm\%10$), $a_{\mathrm{rms}}\pm\%10$ ise $r^*$'ı $[1.0051003173, 1.2284559434]\,\mu\text{m}$ ($\pm\%10$) aralığına taşır. Tayf oranı duyarlılığı $dR/df_{\mathrm{Ps}} = 72/(8-6f_{\mathrm{Ps}})^2 = 11.7065556712$ ($f_{\mathrm{Ps}}=0.92$) olup bant genişliğiyle tutarlıdır.
 
 \begin{table}[!htbp]
 \centering
@@ -155,6 +159,8 @@ $r_p^{\mathrm{Meral}}|\mu_s$ & $0.8221385680$ (alt-lineer) \\
 $R_{\mathrm{th}}$ yayılımı & $45.9354534921$ ppm \\
 $\dot{M}_{\mathrm{acc}}|\eta\in[0.09,0.11]$ & $[8.8907163753, 7.2742224889]\times 10^{-8}\,M_\odot\text{/yıl}$ \\
 $r^*(136\text{ mT})|a_{\mathrm{rms}}\pm\%10$ & $[1.0051003173, 1.2284559434]\,\mu\text{m}$ \\
+$R|f_{\mathrm{Ps}}$ ($dR/df = 11.7065556712$) & $[3.1153846154, 3.5847457627]$ \\
+$\Lambda_{\mathrm{Meral}}^{(0)}$ üç-yol farkı & quad $0.0$ / yamuk $6.39\times 10^{-10}$ / MC $1.05\times 10^{-4}$ \\
 \hline
 \end{tabular}
 \end{table}

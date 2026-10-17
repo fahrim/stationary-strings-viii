@@ -46,7 +46,7 @@ Stationary Strings Theorems I--VII [1--7] arrested the vortex singularity, deriv
 
 \section[Task 15 / Test T20 --- BASE-STEP 136 mT Sideband On/Off Falsification]{Task 15 / Test T20 --- BASE-STEP 136 mT Sideband On/Off Falsification}
 
-The $V_{\mathrm{well}}=16.0\text{ V}$-scaled axial frequency $\nu_z=0.916251\text{ MHz}$ gives, at $B_0=0.136\text{ T}$, $\nu_+=1.845952\text{ MHz}>\nu_z>\nu_-=227.393594\text{ kHz}>0$ (Table~\ref{tab:t20}). The analytic fixed point of the Theorem 5 envelope equation is $r^*=1.1167668231\,\mu\text{m}$ (brentq); the 24-minute Radau evolution settles the centered start at $r_-^{\mathrm{end}}=1.1167668233\,\mu\text{m}$ (Figure~\ref{fig:fig10}(a)). All $r_0=1,2,3,4\text{ mm}$ offsets recapture to the same point; the unprotected arm ($\mu_s=0$, $1\,\mu\text{m}$ seed) hits the wall. The prediction is sharp: \textbf{in the 136 mT campaign, loss starts with sideband cooling off and does not start with it on.}
+The $V_{\mathrm{well}}=16.0\text{ V}$-scaled axial frequency $\nu_z=0.916251\text{ MHz}$ gives, at $B_0=0.136\text{ T}$, $\nu_+=1.845952\text{ MHz}>\nu_z>\nu_-=227.393594\text{ kHz}>0$ (Table~\ref{tab:t20}). The analytic fixed point of the Theorem 5 envelope equation is $r^*=1.1167668231\,\mu\text{m}$ (brentq); the 24-minute Radau evolution settles the centered start at $r_-^{\mathrm{end}}=1.1167668233\,\mu\text{m}$ (Figure~\ref{fig:fig10}(a)). All $r_0=1,2,3,4\text{ mm}$ offsets recapture to the same point; the unprotected arm ($\mu_s=0$, $1\,\mu\text{m}$ seed) hits the wall. The prediction is sharp: \textbf{in the 136 mT campaign, loss starts with sideband cooling off and does not start with it on.} The high-field pairs show the same structure: centered $r_-^{\mathrm{end}}=0.1725929420\,\mu\text{m}$ at $0.880\text{ T}$ ($2/4\text{ mm}$ offsets recaptured, unprotected lost) and $r_-^{\mathrm{end}}=0.1529524641\,\mu\text{m}$ at $0.993\text{ T}$ (offsets recaptured, unprotected lost).
 
 \begin{table}[!htbp]
 \centering
@@ -64,6 +64,8 @@ Analytic fixed point $r^*$ ($\mu_s^*$) & $1.1167668231\,\mu\text{m}$ \\
 Centered+protected $r_-^{\mathrm{end}}(24\text{ min})$ & $1.1167668233\,\mu\text{m}$ \\
 Offsets $r_0=1/2/3/4\text{ mm}$ $\to$ $r_-^{\mathrm{end}}$ & $1.1167668233\,\mu\text{m}$ (all recaptured) \\
 Unprotected ($\mu_s=0$) $r_-(24\text{ min})$ & $>5.0$ mm (wall loss) \\
+High-field pair ($0.880/0.993$ T) centered $r_-^{\mathrm{end}}$ & $0.1725929420$ / $0.1529524641\,\mu\text{m}$ \\
+(offsets recaptured, unprotected lost) & \\
 \hline
 \end{tabular}
 \end{table}
@@ -121,13 +123,15 @@ Band ($f_{\mathrm{Ps}}\in[0.90,0.94]$) & $[3.1153846154, 3.5847457627]$ \\
 $P_s=1$ budget (line $+$ o-Ps) & $0.62 + 2.07 = 2.6900000000$ ($1.07\times 10^{-14}$) \\
 In-flight leak upper bound & $2(1-0.81) = 0.38$ \\
 Line centroid & $511.0$ keV \\
+COSI-2027 frame (threshold $10^{-6}$, 10/10 sources above) & $R$ band applies to all above-threshold sources \\
+& $[3.1153846154, 3.5847457627]$ \\
 \hline
 \end{tabular}
 \end{table}
 
 \section{Uncertainty Quantification (UQ) and Independent Cross-Check}
 
-Sensitivities of four lock outputs to input uncertainties (Figure~\ref{fig:fig10}(d), Table~\ref{tab:uq}): $r_p^{\mathrm{Meral}}|\mu_s$ sensitivity $0.8221385680$ (sub-linear); $R_{\mathrm{th}}$ derivative-step spread $45.9354534921\text{ ppm}$; $\dot{M}_{\mathrm{acc}}(\eta=0.10)=8.0016447377\times 10^{-8}\,M_\odot\text{/yr}$, spanning $[8.8907163753, 7.2742224889]\times 10^{-8}$ over $\eta\in[0.09,0.11]$ (exactly linear, $\pm 10\%$); $r^*(136\text{ mT})=1.1167781304\,\mu\text{m}$, spanning $[1.0051003173, 1.2284559434]\,\mu\text{m}$ over $a_{\mathrm{rms}}\pm 10\%$ ($\pm 10\%$).
+Sensitivities of four lock outputs to input uncertainties (Figure~\ref{fig:fig10}(d), Table~\ref{tab:uq}): $r_p^{\mathrm{Meral}}|\mu_s$ sensitivity $0.8221385680$ (sub-linear); $R_{\mathrm{th}}$ derivative-step spread $45.9354534921\text{ ppm}$; $\dot{M}_{\mathrm{acc}}(\eta=0.10)=8.0016447377\times 10^{-8}\,M_\odot\text{/yr}$, spanning $[8.8907163753, 7.2742224889]\times 10^{-8}$ over $\eta\in[0.09,0.11]$ (exactly linear, $\pm 10\%$); $r^*(136\text{ mT})=1.1167781304\,\mu\text{m}$, spanning $[1.0051003173, 1.2284559434]\,\mu\text{m}$ over $a_{\mathrm{rms}}\pm 10\%$ ($\pm 10\%$). The spectral-ratio sensitivity $dR/df_{\mathrm{Ps}} = 72/(8-6f_{\mathrm{Ps}})^2 = 11.7065556712$ ($f_{\mathrm{Ps}}=0.92$) is consistent with the band width.
 
 \begin{table}[!htbp]
 \centering
@@ -144,6 +148,8 @@ $r_p^{\mathrm{Meral}}|\mu_s$ & $0.8221385680$ (sub-linear) \\
 $R_{\mathrm{th}}$ spread & $45.9354534921$ ppm \\
 $\dot{M}_{\mathrm{acc}}|\eta\in[0.09,0.11]$ & $[8.8907163753, 7.2742224889]\times 10^{-8}\,M_\odot\text{/yr}$ \\
 $r^*(136\text{ mT})|a_{\mathrm{rms}}\pm 10\%$ & $[1.0051003173, 1.2284559434]\,\mu\text{m}$ \\
+$R|f_{\mathrm{Ps}}$ ($dR/df = 11.7065556712$) & $[3.1153846154, 3.5847457627]$ \\
+$\Lambda_{\mathrm{Meral}}^{(0)}$ triple-path diff. & quad $0.0$ / trapz $6.39\times 10^{-10}$ / MC $1.05\times 10^{-4}$ \\
 \hline
 \end{tabular}
 \end{table}
