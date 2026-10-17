@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Stationary Strings Theorem VIII: Falsifiable Predictions, 511 keV Spectral Band, and Uncertainty Quantification"
+message: "If you use this work, please cite it."
+type: unpublished
+authors:
+  - family-names: Meral
+    given-names: Fahri
+date-released: 2026-10-17
+version: v1
+repository-code: "https://github.com/fahrim/stationary-strings-viii"
+license: CC-BY-4.0
+keywords:
+  - Navier-Stokes
+  - falsifiable predictions
+  - BASE-STEP
+  - ALPHA
+  - Ore-Powell
+  - uncertainty quantification

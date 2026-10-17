@@ -1,0 +1,19 @@
+{
+  "title": "Stationary Strings Theorem VIII: Falsifiable Predictions, 511 keV Spectral Band, and Uncertainty Quantification",
+  "description": "Eighth link of the series (October 2026): BASE-STEP 136 mT sideband falsification pair (Test T20), ALPHA 1.05 T third-field prediction and ratio lock (Test T21), 511 keV photon-budget prediction band (Test T22), UQ sensitivities and independent 7-point cross-check. Full paper in Turkish and English. Tests T20-T22 run with the solver in the Paper V repository (stationary-strings-v).",
+  "creators": [
+    {
+      "name": "Meral, Fahri"
+    }
+  ],
+  "license": {
+    "id": "CC-BY-4.0"
+  },
+  "keywords": [
+    "falsifiable predictions",
+    "BASE-STEP",
+    "ALPHA",
+    "Ore-Powell",
+    "uncertainty quantification"
+  ]
+}
