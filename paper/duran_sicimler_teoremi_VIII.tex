@@ -67,6 +67,7 @@ Ofset $r_0=1/2/3/4\text{ mm}$ $\to$ $r_-^{\mathrm{end}}$ & $1.1167668233\,\mu\te
 Korunmasız ($\mu_s=0$) $r_-(24\text{ dk})$ & $>5.0$ mm (duvar kaybı) \\
 Yüksek-alan çifti ($0.880/0.993$ T) merkezli $r_-^{\mathrm{end}}$ & $0.1725929420$ / $0.1529524641\,\mu\text{m}$ \\
 (ofset geri-çekildi, korunmasız kayıp) & \\
+Kırılganlık: kritik $\mu_s$ bandı / $\mu_s=0.10$ marjinal $r^*$ & $[0.05, 0.15]$ / $90.5544376963\,\mu\text{m}$ ($<0.5$ mm) \\
 \hline
 \end{tabular}
 \end{table}
@@ -78,7 +79,7 @@ $1.03/1.07\text{ T}$ gama ortalaması $\bar{\gamma}=7.0112543975\times 10^{-10}\
 \boxed{\dot{f}_{\mathrm{pred}}(1.05\text{ T}) = -74.2301213010 \pm 0.0055473080\text{ kHz/saat}}
 \label{eq:t21pred}
 \end{equation}
-ve oran kilitleri $R(1.05/1.03)=1.0194406565$, $R(1.07/1.05)=1.0190695066$ önceden yazılır. Gelecekteki $1.05\text{ T}$ ölçümü bu bandın dışına düşerse oran yasası çürütülmüş olur.
+ve oran kilitleri $R(1.05/1.03)=1.0194406565$, $R(1.07/1.05)=1.0190695066$ önceden yazılır. Metodoloji geriye-dönük validasyonu (leave-one-out): yalnızca $1.03$ verisiyle $1.07$ tahmini $-75.651306$ ($149.5\text{ ppm}$ hata), yalnızca $1.07$ ile $1.03$ tahmini $-72.809117$ ($149.5\text{ ppm}$) verir. Gelecekteki $1.05\text{ T}$ ölçümü bu bandın dışına düşerse oran yasası çürütülmüş olur.
 
 \begin{table}[!htbp]
 \centering
@@ -94,6 +95,7 @@ Büyüklük & Değer \\
 $\partial f_{da}/\partial B(1.05\text{ T})$ & $28.0086802081$ GHz/T \\
 $\dot{f}_{\mathrm{pred}}(1.05\text{ T})$ & $-74.2301213010 \pm 0.0055473080$ kHz/saat \\
 $R(1.05/1.03)$ / $R(1.07/1.05)$ & $1.0194406565$ / $1.0190695066$ \\
+LOO ($1.03\to1.07$ / $1.07\to1.03$) & $149.5$ / $149.5\text{ ppm}$ \\
 $\bar{\gamma}$ göreceli yayılımı & $1.4946245170\times 10^{-4}$ \\
 \hline
 \end{tabular}
@@ -126,6 +128,8 @@ Uçuşta-yokoluş sızıntı üst sınırı & $2(1-0.81) = 0.38$ \\
 Hat merkezi & $511.0$ keV \\
 COSI-2027 çerçevesi (eşik $10^{-6}$, 10/10 kaynak üstte) & $R$ bandı tüm eşik-üstü kaynaklara uygulanır \\
 & $[3.1153846154, 3.5847457627]$ \\
+SPI dış doğrulama (Bulge akıları, $\times10^{-4}$) & $R_{\mathrm{obs}}=3.1758241758\pm0.402$ \\
+($28.9\pm2.9$ / $9.1\pm0.7$) vs.\ $R_{\mathrm{model}}=3.3387096774$ & ($0.41\sigma$ uyum) \\
 \hline
 \end{tabular}
 \end{table}
