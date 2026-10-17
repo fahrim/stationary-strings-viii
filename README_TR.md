@@ -2,6 +2,9 @@
 
 > **English:** [README.md](./README.md)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23436862.svg)](https://doi.org/10.5281/zenodo.23436862)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+
 **Duran Sicimler Teoremi VIII: Falsifiye Edilebilir Öngörüler, 511 keV Tayf Bandı ve Belirsizlik Nicelemesi**
 
 Yazar: Fahri Meral · Tarih: 17 Ekim 2026 · Sürüm: v1 (Makale VIII)
@@ -45,6 +48,20 @@ Bağımsız çapraz kontrol çözücüyü import etmez.
   bant `[3,115; 3,585]`, `P_s = 1` bütçesi `2,6900000000`).
 - UQ: kilit-çıktı duyarlılıkları + öz-denetim notu (solver proton sabiti bağımsız
   zincirle yakalanıp düzeltildi; türevler yalnızca %0,04 değişti).
+
+## Alıntı
+
+```bibtex
+@misc{meral2026duranVIII,
+  author = {Fahri Meral},
+  title  = {Duran Sicimler Teoremi VIII: Falsifiye Edilebilir Öngörüler, 511 keV Tayf Bandı ve Belirsizlik Nicelemesi},
+  year   = {2026},
+  doi    = {10.5281/zenodo.23436862},
+  url    = {https://github.com/fahrim/stationary-strings-viii}
+}
+```
+
+`CITATION.cff` dosyasına da bakınız.
 
 ## Lisans
 

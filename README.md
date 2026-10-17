@@ -2,6 +2,9 @@
 
 > **Türkçe:** [README_TR.md](./README_TR.md)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23436862.svg)](https://doi.org/10.5281/zenodo.23436862)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+
 **Stationary Strings Theorem VIII: Falsifiable Predictions, 511 keV Spectral Band, and Uncertainty Quantification**
 
 Author: Fahri Meral · Date: October 17, 2026 · Version: v1 (Paper VIII)
@@ -46,6 +49,20 @@ The independent cross-check never imports the solver.
   band `[3.115, 3.585]`, `P_s = 1` budget `2.6900000000`).
 - UQ: lock-output sensitivities + self-audit note (solver proton constant caught
   and corrected by the independent chain; slopes changed only 0.04%).
+
+## Citation
+
+```bibtex
+@misc{meral2026duranVIII,
+  author = {Fahri Meral},
+  title  = {Stationary Strings Theorem VIII: Falsifiable Predictions, 511 keV Spectral Band, and Uncertainty Quantification},
+  year   = {2026},
+  doi    = {10.5281/zenodo.23436862},
+  url    = {https://github.com/fahrim/stationary-strings-viii}
+}
+```
+
+See also `CITATION.cff`.
 
 ## License
 
