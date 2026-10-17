@@ -19,7 +19,7 @@ Author: Fahri Meral · Date: October 17, 2026 · Version: v1 (Paper VIII)
 | `figs/fig10_falsifiable_predictions_UQ_en.pdf` | Tests T20–T22 + UQ figure (EN, 2×2) |
 | `figs/fig10_falsifiable_predictions_UQ_en.png` | Tests T20–T22 + UQ figure preview (EN) |
 | `CITATION.cff` | Citation record |
-| `LICENSE` | MIT |
+| `LICENSE` | CC BY 4.0 |
 
 ## Numerical reproduction
 
@@ -49,4 +49,4 @@ The independent cross-check never imports the solver.
 
 ## License
 
-MIT — see `LICENSE`. Content is not peer-reviewed.
+CC BY 4.0 — see `LICENSE`. Content is not peer-reviewed.

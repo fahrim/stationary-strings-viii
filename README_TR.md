@@ -19,7 +19,7 @@ Yazar: Fahri Meral · Tarih: 17 Ekim 2026 · Sürüm: v1 (Makale VIII)
 | `figs/fig10_falsifiable_predictions_UQ_en.pdf` | Test T20–T22 + UQ şekli (EN, 2×2) |
 | `figs/fig10_falsifiable_predictions_UQ_en.png` | Test T20–T22 + UQ şekil önizlemesi (EN) |
 | `CITATION.cff` | Atıf kaydı |
-| `LICENSE` | MIT |
+| `LICENSE` | CC BY 4.0 |
 
 ## Sayısal üretim
 
@@ -48,4 +48,4 @@ Bağımsız çapraz kontrol çözücüyü import etmez.
 
 ## Lisans
 
-MIT — bkz. `LICENSE`. İçerik hakem denetiminden geçmemiştir.
+CC BY 4.0 — bkz. `LICENSE`. İçerik hakem denetiminden geçmemiştir.
